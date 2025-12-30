@@ -10,6 +10,8 @@ format constraints, with these benefits:
 * Support the advanced tool calling features, such as forced tool calling, parallel tool calling, etc.
 * Support the tool calling format of most of the LLMs available in the market with minimal effort.
 
+> **📘 Note**: For comprehensive documentation on forced tool calling, parallel tool calling control, and detailed code examples with implementation details, see the [Forced Tool Calling Documentation](forced_tool_calling).
+
 ## Usage
 
 The structural tag is a response format. It's compatible with the OpenAI API. With the
@@ -835,5 +837,6 @@ The `true` mode can be implemented by setting `stop_after_first` to `false`.
 
 ## Next Steps
 
+* For detailed documentation on forced tool calling and parallel tool calling control, see [Forced Tool Calling Documentation](forced_tool_calling).
 * For API reference, see [Structural Tag API Reference](../api/python/structural_tag).
 * For advanced usage, see [Advanced Topics of the Structural Tag](advanced_structural_tag).
